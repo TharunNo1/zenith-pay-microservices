@@ -27,10 +27,6 @@ public class ReconcileController {
     private TaskExecutorJobOperator jobLauncher;
     @Autowired
     private Job reconcileJob;
-    @Autowired
-    private JobRepository jobRepository;
-    @Autowired
-    private JobRegistry jobRegistry;
 
 
     @PostMapping("/run")
